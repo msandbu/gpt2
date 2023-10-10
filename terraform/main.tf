@@ -69,5 +69,3 @@ resource "azurerm_network_interface" "example" {
 output "vm_public_ip" {
   value = azurerm_windows_virtual_machine.example.network_interface_ids[0]
 }
-
-Hyper
