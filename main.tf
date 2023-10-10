@@ -47,7 +47,7 @@ resource "azurerm_windows_virtual_machine" "example" {
   }
 
   computer_name = "myVM"
-  admin_password = "yourpassword"
+  admin_password = "yourpassword!1"
   admin_username = "yourusername"
 
   tags = {
