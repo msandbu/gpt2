@@ -33,7 +33,7 @@ resource "azurerm_windows_virtual_machine" "example" {
   location              = azurerm_resource_group.example.location
   size                  = "Standard_DS2_v2"
   admin_username        = "yourusername"
-  admin_password        = "yourpassword"
+  admin_password        = "yourpassword!1"
   network_interface_ids = [azurerm_network_interface.example.id]
   os_disk {
     caching              = "ReadWrite"
