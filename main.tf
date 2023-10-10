@@ -1,4 +1,5 @@
 # Define the Azure provider
+# TEST CODE
 provider "azurerm" {
   features {}
 }
